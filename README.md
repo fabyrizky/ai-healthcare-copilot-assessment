@@ -66,7 +66,7 @@ ai-health-copilot/
 ## 🔧 Configuration
 
 ### API Configuration
-The app uses OpenRouter's Qwen QwQ 32B model. Make sure to:
+The app uses OpenRouter's Meta Llama 4 Maverick model. Make sure to:
 1. Get a free API key from [OpenRouter](https://openrouter.ai/)
 2. Add it to your `.streamlit/secrets.toml` file
 3. Keep your API key secure and never commit it to public repositories
@@ -94,7 +94,7 @@ The app uses OpenRouter's Qwen QwQ 32B model. Make sure to:
 
 - **Frontend**: Streamlit
 - **ML Libraries**: scikit-learn, numpy, pandas
-- **AI Model**: Qwen QwQ 32B via OpenRouter API
+- **AI Model**: Meta Llama 4 Maverick via OpenRouter API
 - **Deployment**: Streamlit Cloud compatible
 - **Python Version**: 3.8+
 
