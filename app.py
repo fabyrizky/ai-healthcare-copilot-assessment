@@ -14,7 +14,7 @@ from datetime import datetime
 
 # Page Configuration
 st.set_page_config(
-    page_title="AI Health Copilot", 
+    page_title="AI Healthcare Copilot", 
     page_icon="🧑‍⚕️", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -130,7 +130,7 @@ st.markdown("""
 <div class="main-header">
     <h1>🧑‍⚕️ AI Health Copilot</h1>
     <p>Advanced Health Prediction & Analysis Platform</p>
-    <p style="font-size: 0.9rem; opacity: 0.9;">Powered by Machine Learning & AI Intelligence</p>
+    <p style="font-size: 0.9rem; opacity: 0.9;">Powered by AI & ML Healthcare Engineering</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -164,11 +164,11 @@ def get_health_insights(prompt, health_data=None):
                 "Authorization": f"Bearer {API_KEY}",
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://ai-health-copilot.streamlit.app",
-                "X-Title": "AI Health Copilot"
+                "X-Title": "AI Healthcare Copilot"
             }
             
             payload = {
-                "model": "meta-llama/llama-3.1-8b-instruct:free",
+                "model": "qwen/qwq-32b:free",
                 "messages": [
                     {"role": "system", "content": "You are an expert health advisor providing evidence-based recommendations. Always remind users to consult healthcare professionals."},
                     {"role": "user", "content": prompt}
@@ -1446,16 +1446,16 @@ st.markdown("""
     </p>
     <div style='background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 10px; margin: 1rem 0;'>
         <p style='margin: 0;'>
-            🩺 <strong>Not a Medical Device:</strong> Results are not diagnostic tools and should not replace professional medical advice<br>
+            🩺 <strong>Not yet a Medical Device:</strong> Results are not diagnostic tools and should not replace professional medical advice<br>
             👨‍⚕️ <strong>Consult Healthcare Providers:</strong> Always seek professional medical consultation for health concerns<br>
             🚨 <strong>Emergency Situations:</strong> Seek immediate medical attention for serious symptoms or emergencies<br>
             📋 <strong>Supplementary Tool:</strong> Use alongside, not instead of, regular medical care and check-ups
         </p>
     </div>
     <p style='margin-bottom: 0; font-size: 0.9rem; opacity: 0.9;'>
-        🤖 Powered by Advanced Machine Learning & Meta Llama 3.1 AI | 
-        📊 Built with Streamlit & Python | 
-        © 2025 AI Health Copilot
+        🤖 Powered by Advanced Machine Learning | 
+        📊 Built & Developed by Faby Rizky with Streamlit & Python | 
+        © 2025 AI Healthcare Copilot
     </p>
 </div>
 """, unsafe_allow_html=True)
