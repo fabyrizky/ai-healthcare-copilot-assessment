@@ -164,7 +164,7 @@ def get_health_insights(prompt, health_data=None):
                 "Authorization": f"Bearer {API_KEY}",
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://ai-health-copilot.streamlit.app",
-                "X-Title": "AI Healthcare Copilot Assessment"
+                "X-Title": "AI HEALTCARE COPILOT ASSESSMENT"
             }
             
             payload = {
