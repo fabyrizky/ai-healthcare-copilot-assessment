@@ -14,7 +14,7 @@ from datetime import datetime
 
 # Page Configuration
 st.set_page_config(
-    page_title="AI Healthcare Copilot Assessment", 
+    page_title="AI HEALTHCARE COPILOT ASSESSMENT", 
     page_icon="👨🏼‍⚕", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -1454,7 +1454,7 @@ st.markdown("""
     </div>
     <p style='margin-bottom: 0; font-size: 0.9rem; opacity: 0.9;'>
         🤖 Powered by Advanced Machine Learning & QwQ 32B | 
-        📊 Built & Developed by Faby Rizky with Streamlit & Python | 
+        📊 Built & Developed by FABY RIZKY with Streamlit & Python | 
         © 2025 AI Healthcare Copilot Assessment
     </p>
 </div>
