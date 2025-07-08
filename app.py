@@ -18,13 +18,13 @@ with st.sidebar:
     try:
         api_key = st.secrets["OPENROUTER_API_KEY"]
         st.success("✅ API Connected")
-        st.info("🤖 Model: Meta Llama 3.1")
+        st.info("🤖 Model: Qwen QwQ 32B")
     except:
         try:
             api_key = st.secrets.get("openrouter", {}).get("api_key")
             if api_key:
                 st.success("✅ API Connected")
-                st.info("🤖 Model: Meta Llama 3.1")
+                st.info("🤖 Model: Qwen QwQ 32B")
         except:
             pass
     
@@ -51,7 +51,7 @@ def get_ai_response(prompt, health_data=None, max_tokens=250):
             }
             
             payload = {
-                "model": "meta-llama/llama-3.1-8b-instruct:free",
+                "model": "qwen/qwq-32b:free",
                 "messages": [
                     {"role": "system", "content": "You are an expert health advisor. Provide specific, actionable health recommendations. Always remind users to consult healthcare professionals."},
                     {"role": "user", "content": prompt}
@@ -427,6 +427,6 @@ st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem;'>
     <p>⚠️ <strong>Disclaimer:</strong> For educational purposes only. Not medical advice.</p>
     <p>Always consult healthcare professionals for medical concerns.</p>
-    <p>🤖 Powered by Meta Llama 3.1 via OpenRouter | © 2025 AI Health Copilot</p>
+    <p>🤖 Powered by Qwen QwQ 32B via OpenRouter | © 2025 AI Health Copilot</p>
 </div>
 """, unsafe_allow_html=True)
