@@ -1,4 +1,4 @@
-# 🧑‍⚕️ AI Health Copilot
+# 🧑‍⚕️ AI Health Copilot Assessment
 
 > **Advanced Health Prediction & Analysis Platform**  
 > *Powered by Machine Learning and AI for Precision Health Insights*
