@@ -14,7 +14,7 @@ from datetime import datetime
 
 # Page Configuration
 st.set_page_config(
-    page_title="AI HEALTHCARE COPILOT ASSESSMENT", 
+    page_title="AI Healthcare Copilot", 
     page_icon="👨🏼‍⚕", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -128,7 +128,7 @@ st.markdown("""
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1>🧑‍⚕️ AI Healthcare Copilot</h1>
+    <h1>👨🏼‍⚕ AI HEALTHCARE COPILOT</h1>
     <p>Advanced Health Prediction & Analysis Platform</p>
     <p style="font-size: 0.9rem; opacity: 0.9;">Powered by Advanced Machine Learning & Qwen QwQ 32B </p>
 </div>
@@ -164,7 +164,7 @@ def get_health_insights(prompt, health_data=None):
                 "Authorization": f"Bearer {API_KEY}",
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://ai-health-copilot.streamlit.app",
-                "X-Title": "AI HEALTCARE COPILOT ASSESSMENT"
+                "X-Title": "AI Healthcare Copilot"
             }
             
             payload = {
@@ -1455,7 +1455,7 @@ st.markdown("""
     <p style='margin-bottom: 0; font-size: 0.9rem; opacity: 0.9;'>
         🤖 Powered by Advanced Machine Learning & QwQ 32B | 
         📊 Built & Developed by FABY RIZKY with Streamlit & Python | 
-        © 2025 AI Healthcare Copilot Assessment
+        © 2025 AI Healthcare Copilot
     </p>
 </div>
 """, unsafe_allow_html=True)
