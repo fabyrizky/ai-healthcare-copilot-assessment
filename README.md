@@ -112,10 +112,6 @@ The app uses OpenRouter's Meta Llama 4 Maverick model. Make sure to:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🆘 Support
 
 If you encounter any issues:
