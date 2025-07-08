@@ -17,7 +17,7 @@ with st.sidebar:
     try:
         api_key = st.secrets["OPENROUTER_API_KEY"]
         st.success("✅ API Connected")
-        st.info("🤖 Model: Meta Llama 3.1")
+        st.info("🤖 Model: Meta Llama 4 Maverick")
     except:
         api_key = st.text_input("Enter OpenRouter API Key:", type="password", help="Get from https://openrouter.ai/")
         if not api_key:
@@ -38,7 +38,7 @@ def get_ai_response(prompt, max_tokens=300):
     }
     
     payload = {
-        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "model": "meta-llama/llama-4-maverick-17b-128e-instruct:free",
         "messages": [
             {
                 "role": "system", 
@@ -406,6 +406,6 @@ st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem;'>
     <p>⚠️ <strong>Disclaimer:</strong> For educational purposes only. Not medical advice.</p>
     <p>Always consult healthcare professionals for medical concerns.</p>
-    <p>🤖 Powered by Meta Llama 3.1 via OpenRouter | © 2025 AI Health Copilot</p>
+    <p>🤖 Powered by Meta Llama 4 Maverick via OpenRouter | © 2025 AI Health Copilot</p>
 </div>
 """, unsafe_allow_html=True)
