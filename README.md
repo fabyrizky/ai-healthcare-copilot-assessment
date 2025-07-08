@@ -1,136 +1,38 @@
 # 🧑‍⚕️ AI Health Copilot
 
-A comprehensive health prediction and analysis application powered by Machine Learning and Meta Llama 4 Maverick AI model via OpenRouter.
+> **Advanced Health Prediction & Analysis Platform**  
+> *Powered by Machine Learning and AI for Precision Health Insights*
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🌟 Features
 
-- **Diabetes Prediction**: ML-based diabetes risk assessment
-- **Heart Disease Prediction**: Cardiovascular health analysis
-- **Parkinson's Disease Prediction**: Neurological condition screening using voice analysis
-- **Personalized Health Plans**: AI-generated diet and fitness recommendations
-- **Intelligent Explanations**: Medical insights powered by Meta Llama 4 Maverick
+### 🔬 **Machine Learning Predictions**
+- **Heart Disease Risk**: Clinical-grade cardiovascular assessment using 13 medical parameters
+- **Diabetes Prediction**: Advanced metabolic analysis with 8 key health indicators  
+- **Parkinson's Screening**: Voice pattern analysis with 22 acoustic features
+- **General Health Assessment**: Comprehensive lifestyle and risk factor evaluation
 
-## 🚀 Quick Deploy on Streamlit Cloud
+### 🤖 **AI-Powered Insights**
+- **Smart Recommendations**: Personalized health advice using Meta Llama 3.1
+- **Evidence-Based Fallbacks**: Medical guideline-based suggestions when API unavailable
+- **Risk Stratification**: Intelligent scoring algorithms for health risk assessment
+- **Interactive Visualizations**: Real-time charts and health metrics dashboards
 
-### 1. Fork/Clone this Repository
-```bash
-git clone https://github.com/yourusername/ai-health-copilot.git
-cd ai-health-copilot
-```
+### 💡 **Advanced Analytics**
+- **Predictive Modeling**: Random Forest, Logistic Regression, and SVM algorithms
+- **Feature Importance**: Understanding key health risk factors
+- **Probability Scoring**: Confidence levels for all predictions
+- **Multi-Modal Analysis**: Combining multiple health data sources
 
-### 2. Get OpenRouter API Key
-1. Visit [OpenRouter](https://openrouter.ai/)
-2. Sign up for a free account
-3. Generate an API key
-4. Copy your API key (starts with `sk-or-v1-...`)
+## 🚀 Quick Start
 
-### 3. Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io/)
-2. Connect your GitHub account
-3. Choose this repository
-4. Set the main file path: `app.py`
-5. **Important**: In the "Advanced settings" section, add your secrets:
-   ```
-   OPENROUTER_API_KEY = "sk-or-v1-your-actual-api-key-here"
-   ```
-
-### 4. Alternative Local Setup
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Create secrets file
-mkdir .streamlit
-echo 'OPENROUTER_API_KEY = "sk-or-v1-your-actual-api-key-here"' > .streamlit/secrets.toml
-
-# Run the app
-streamlit run app.py
-```
-
-## 📁 Project Structure
-
-```
-ai-health-copilot/
-├── app.py                          # Main Streamlit application
-├── requirements.txt                 # Python dependencies
-├── .streamlit/
-│   ├── secrets.toml                # API keys (hidden)
-│   └── config.toml                 # App configuration
-├── saved_models/                   # ML models (auto-generated)
-│   ├── diabetes_model.sav
-│   ├── heart_disease_model.sav
-│   └── parkinsons_model.sav
-└── README.md                       # This file
-```
-
-## 🔧 Configuration
-
-### API Configuration
-The app uses OpenRouter's Meta Llama 4 Maverick model. Make sure to:
-1. Get a free API key from [OpenRouter](https://openrouter.ai/)
-2. Add it to your `.streamlit/secrets.toml` file
-3. Keep your API key secure and never commit it to public repositories
-
-### Model Information
-- **Diabetes Model**: SVM classifier trained on PIMA diabetes dataset
-- **Heart Disease Model**: Logistic Regression on UCI heart disease dataset  
-- **Parkinson's Model**: SVM classifier using voice measurement features
-
-## 💡 Usage
-
-1. **Health Predictions**: Enter your health parameters to get ML-based predictions
-2. **AI Explanations**: Get detailed medical insights for each prediction
-3. **Health Planning**: Generate personalized diet and fitness plans
-4. **Track Results**: Monitor your health metrics over time
-
-## ⚠️ Important Disclaimers
-
-- This application is for **informational purposes only**
-- Results are **not a substitute** for professional medical advice
-- Always consult healthcare providers for medical decisions
-- Predictions are based on statistical models and may not be 100% accurate
-
-## 🛠️ Technical Details
-
-- **Frontend**: Streamlit
-- **ML Libraries**: scikit-learn, numpy, pandas
-- **AI Model**: Meta Llama 4 Maverick via OpenRouter API
-- **Deployment**: Streamlit Cloud compatible
-- **Python Version**: 3.8+
-
-## 📊 Model Performance
-
-- **Diabetes Model**: ~77% accuracy on test data
-- **Heart Disease Model**: ~82% accuracy on test data
-- **Parkinson's Model**: ~87% accuracy on test data
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 🆘 Support
-
-If you encounter any issues:
-1. Check that your OpenRouter API key is correctly configured
-2. Ensure all requirements are installed
-3. Verify your internet connection for API calls
-4. Check the Streamlit Cloud logs for deployment issues
-
-## 🔮 Future Enhancements
-
-- [ ] Additional disease prediction models
-- [ ] Health data visualization dashboard
-- [ ] Integration with wearable devices
-- [ ] Multi-language support
-- [ ] Advanced AI health coaching
-- [ ] Telemedicine features
-
----
-
-**Developed by Faby Rizky using Streamlit and Meta Llama 4 Maverick**
-
-*Pasar Rebo Public Hospital© 2025*
+### Option 1: Streamlit Cloud (Recommended)
+1. **Fork this repository** to your GitHub account
+2. **Get OpenRouter API Key** (free): [openrouter.ai](https://openrouter.ai/)
+3. **Deploy on Streamlit Cloud**: [share.streamlit.io](https://share.streamlit.io/)
+4. **Add API key** in Advanced Settings → Secrets:
+   ```toml
+   OPENROUTER_API_KEY = "sk-or-v1-your-actual-key-here"
