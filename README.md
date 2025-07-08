@@ -1,6 +1,6 @@
 # 🧑‍⚕️ AI Health Copilot
 
-A comprehensive health prediction and analysis application powered by Machine Learning and Qwen QwQ 32B AI model via OpenRouter.
+A comprehensive health prediction and analysis application powered by Machine Learning and Meta Llama 4 Maverick AI model via OpenRouter.
 
 ## 🌟 Features
 
