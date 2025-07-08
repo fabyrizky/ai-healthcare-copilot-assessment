@@ -3,18 +3,13 @@ developmentMode = false
 
 [server]
 runOnSave = true
-allowRunOnSave = true
 port = 8501
 enableCORS = false
 enableXsrfProtection = true
 maxUploadSize = 200
-maxMessageSize = 200
-enableWebsocketCompression = true
 
 [browser]
 gatherUsageStats = false
-serverAddress = "localhost"
-serverPort = 8501
 
 [theme]
 primaryColor = "#8e44ad"
@@ -25,7 +20,6 @@ font = "sans serif"
 
 [logger]
 level = "info"
-messageFormat = "%(asctime)s %(message)s"
 
 [client]
 caching = true
