@@ -8,7 +8,7 @@ A comprehensive health prediction and analysis application powered by Machine Le
 - **Heart Disease Prediction**: Cardiovascular health analysis
 - **Parkinson's Disease Prediction**: Neurological condition screening using voice analysis
 - **Personalized Health Plans**: AI-generated diet and fitness recommendations
-- **Intelligent Explanations**: Medical insights powered by Qwen QwQ 32B
+- **Intelligent Explanations**: Medical insights powered by Meta Llama 4 Maverick
 
 ## 🚀 Quick Deploy on Streamlit Cloud
 
@@ -135,6 +135,6 @@ If you encounter any issues:
 
 ---
 
-**Developed by Faby Rizky using Streamlit and Qwen QwQ 32B**
+**Developed by Faby Rizky using Streamlit and Meta Llama 4 Maverick**
 
 *Pasar Rebo Public Hospital© 2025*
