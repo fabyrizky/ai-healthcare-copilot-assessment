@@ -128,7 +128,7 @@ st.markdown("""
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1>👨🏼‍⚕ AI HEALTHCARE COPILOT</h1>
+    <h1>👨🏼‍⚕ AI Healthcare Copilot Assessment</h1>
     <p>Advanced Health Prediction & Analysis Platform</p>
     <p style="font-size: 0.9rem; opacity: 0.9;">Powered by Advanced Machine Learning & Qwen QwQ 32B </p>
 </div>
