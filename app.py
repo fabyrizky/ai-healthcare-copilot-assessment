@@ -1454,7 +1454,7 @@ st.markdown("""
     </div>
     <p style='margin-bottom: 0; font-size: 0.9rem; opacity: 0.9;'>
         🤖 Powered by Advanced Machine Learning & QwQ 32B | 
-        📊 Built by FABY RIZKY & Co-developed 🫱🏻‍🫲🏾 by ALVIN MUBAROK with Streamlit & Python | 
+        📊 Built by FABY RIZKY & Co-developed by DIGITAL HRM STUDENTS OF IMDE with Streamlit & Python | 
         © 2025 AI Healthcare Copilot
     </p>
 </div>
